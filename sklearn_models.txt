@@ -1,0 +1,72 @@
+Scikit-learn provides a wide range of classifiers that can be used for different types of machine learning problems. Here's a list of all the classifiers available in scikit-learn as of version 1.0:
+
+1. Linear models:
+- Linear Regression
+- Logistic Regression
+- Ridge Regression
+- Lasso Regression
+- ElasticNet Regression
+- Least Angle Regression
+- Bayesian Ridge Regression
+- Orthogonal Matching Pursuit
+- Passive Aggressive Classifier
+- Perceptron
+- SGD Classifier
+
+2. Tree-based models:
+- Decision Tree Classifier
+- Decision Tree Regressor
+- Random Forest Classifier
+- Random Forest Regressor
+- Extra Trees Classifier
+- Extra Trees Regressor
+- AdaBoost Classifier
+- Gradient Boosting Classifier
+- XGBoost Classifier
+- LightGBM Classifier
+- CatBoost Classifier
+
+3. Nearest Neighbors:
+- K-Nearest Neighbors Classifier
+- K-Nearest Neighbors Regressor
+
+4. Support Vector Machines:
+- Support Vector Classifier
+- Support Vector Regressor
+
+5. Naive Bayes:
+- Gaussian Naive Bayes
+- Bernoulli Naive Bayes
+- Multinomial Naive Bayes
+
+6. Clustering:
+- K-Means Clustering
+- Mini-Batch K-Means Clustering
+- DBSCAN Clustering
+- Hierarchical Agglomerative Clustering
+- Mean Shift Clustering
+- Spectral Clustering
+
+7. Neural Networks:
+- Multi-Layer Perceptron Classifier
+- Multi-Layer Perceptron Regressor
+
+8. Gaussian Process:
+- Gaussian Process Classifier
+- Gaussian Process Regressor
+
+9. Ensemble methods:
+- Voting Classifier
+- Bagging Classifier
+- Bagging Regressor
+- Extra Trees Classifier
+- Extra Trees Regressor
+- Random Forest Classifier
+- Random Forest Regressor
+- AdaBoost Classifier
+- Gradient Boosting Classifier
+- XGBoost Classifier
+- LightGBM Classifier
+- CatBoost Classifier
+
+Note that this list may not be exhaustive and new classifiers may be added in future versions of scikit-learn.
