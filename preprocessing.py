@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-def shadow_removalDialate(img):
+def shadow_removalDialte(img):
     img2 = cv2.resize(img, (256, 256))
     
     img_hls = cv2.cvtColor(img2, cv2.COLOR_BGR2HLS)
@@ -38,6 +38,10 @@ def preprocessing(img,org_img):
 
     # Crop the image to the bounding box around the hand
     hand = equalized[y:y+h, x:x+w]
+    
+    # if width of the image is less than height then rotate the image by 90 degree
+    # if w < h:
+    #     hand = cv2.rotate(hand, cv2.ROTATE_90_COUNTERCLOCKWISE)
     
     # apply median filter to remove noise
     Noise_Reduction = cv2.medianBlur(hand, 5)
